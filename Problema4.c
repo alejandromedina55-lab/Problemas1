@@ -1,11 +1,6 @@
 //
 // Created by Alexm on 09/02/2026.
 //
-    printf("3) Calcular la raiz cuadrada de un número\n");
-    printf("4) Terminar el programa\n\n");
-    printf("Inserte el número de la cosa a realizar: ");
-    scanf("%d", &eleccion);
-
 #include <stdio.h>
 
 int main() {
@@ -13,6 +8,11 @@ int main() {
     printf("Escoja una de estas opciones.\n");
     printf("1) Determinar si el numero es par o impar\n");
     printf("2) Elevar un numero a una potencia\n");
+    printf("3) Calcular la raiz cuadrada de un número\n");
+    printf("4) Terminar el programa\n\n");
+    printf("Inserte el número de la cosa a realizar: ");
+    scanf("%d", &eleccion);
+
 
     switch(eleccion){
         case 1:
