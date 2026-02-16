@@ -11,7 +11,7 @@ int main() {
     printf("C) Conocer el tipo de triángulo que se forma\n");
     printf("D) Terminar el programa\n\n");
 
-    printf("Inserte el número de la cosa a realizar: ");
+    printf("Inserte la letra de la cosa a realizar: ");
     scanf("%c", &eleccion);
 
     switch(eleccion){
